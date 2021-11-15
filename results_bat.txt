@@ -1,0 +1,762 @@
+"----------" 
+graph_1.json 
+"----------" 
+graph_10.json 
+"----------" 
+graph_11.json 
+"----------" 
+graph_2.json 
+"----------" 
+graph_3.json 
+"----------" 
+graph_4.json 
+"----------" 
+graph_5.json 
+"----------" 
+graph_6.json 
+"----------" 
+graph_7.json 
+"----------" 
+graph_9.json 
+"----------" 
+graph_1.json 
+"----------" 
+graph_10.json 
+"----------" 
+graph_11.json 
+"----------" 
+graph_2.json 
+"----------" 
+graph_3.json 
+"----------" 
+graph_4.json 
+"----------" 
+graph_5.json 
+"----------" 
+graph_6.json 
+"----------" 
+graph_7.json 
+"----------" 
+.DS_Store 
+"----------" 
+graph10_emd_bi.py 
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.003057
+Tiempo: 
+ 444.673053 s
+"----------" 
+graph10_emd_bi_cut_approximation.py 
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.003057
+Tiempo: 
+ 147.649329 s
+"----------" 
+graph10_emd_bi_memoization.py 
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.003057
+Tiempo: 
+ 367.494237 s
+"----------" 
+graph10_emd_bi_no_new_concepts.py 
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.003057
+Tiempo: 
+ 16.762605 s
+"----------" 
+graph10_emd_bi_parallel.py 
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.003057
+Tiempo: 
+ 367.031683 s
+"----------" 
+graph10_emd_tri_cm.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.026402
+Tiempo: 
+ 1520.111336 s
+"----------" 
+graph10_emd_tri_no_cm.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.026402
+Tiempo: 
+ 1566.851005 s
+"----------" 
+graph10_l1_bi_cm.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.010016
+Tiempo: 
+ 113.32162 s
+"----------" 
+graph10_l1_bi_no_cm.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.010016
+Tiempo: 
+ 114.339286 s
+"----------" 
+graph11_emd_bi.py 
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.009583
+Tiempo: 
+ 486.660469 s
+"----------" 
+graph11_emd_bi_cut_approximation.py 
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.009583
+Tiempo: 
+ 135.79196 s
+"----------" 
+graph11_emd_bi_memoization.py 
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.009583
+Tiempo: 
+ 434.934237 s
+"----------" 
+graph11_emd_bi_no_new_concepts.py 
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.009583
+Tiempo: 
+ 19.02526 s
+"----------" 
+graph11_emd_bi_parallel.py 
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E]
+Phi: 
+ Φ =  0.009583
+Tiempo: 
+ 398.610314 s
+"----------" 
+graph11_emd_tri_cm.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.06666
+Tiempo: 
+ 1615.613557 s
+"----------" 
+graph11_emd_tri_no_cm.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.066659
+Tiempo: 
+ 2373.081551 s
+"----------" 
+graph11_l1_bi_cm.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.032778
+Tiempo: 
+ 72.717776 s
+"----------" 
+graph11_l1_bi_no_cm.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.032778
+Tiempo: 
+ 123.856907 s
+"----------" 
+graph1_emd_bi.py 
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0
+Tiempo: 
+ 15.907953 s
+"----------" 
+graph1_emd_bi_cut_approximation.py 
+MIP: 
+ NullCut((0, 1, 2, 3))
+Phi: 
+ Φ =  0.0
+Tiempo: 
+ 0.003988 s
+"----------" 
+graph1_emd_bi_memorization.py 
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0
+Tiempo: 
+ 9.783897 s
+"----------" 
+graph1_emd_bi_no_new_concept.py 
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0
+Tiempo: 
+ 4.233621 s
+"----------" 
+graph1_emd_bi_parallel.py 
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0
+Tiempo: 
+ 7.839227 s
+"----------" 
+graph1_emd_tri_cm.py 
+MIP: 
+ NullCut((0, 1, 2, 3))
+Phi: 
+ Φ =  0.0
+Tiempo: 
+ 0.001996 s
+"----------" 
+graph1_emd_tri_no_cm.py 
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.0
+Tiempo: 
+ 19.18095 s
+"----------" 
+graph1_l1_bi_cm.py 
+MIP: 
+ NullCut((0, 1, 2, 3))
+Phi: 
+ Φ =  0.0
+Tiempo: 
+ 0.001995 s
+"----------" 
+graph1_l1_bi_no_cm.py 
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0
+Tiempo: 
+ 2.832587 s
+"----------" 
+graph2_emd_bi.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  1.916665
+Tiempo: 
+ 0.612021 s
+"----------" 
+graph2_emd_bi_cut_approximation.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  1.916665
+Tiempo: 
+ 0.336102 s
+"----------" 
+graph2_emd_bi_memorization.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  1.916665
+Tiempo: 
+ 0.602426 s
+"----------" 
+graph2_emd_bi_no_new_concepts.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  1.916665
+Tiempo: 
+ 0.883859 s
+"----------" 
+graph2_emd_bi_parallel.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  1.916665
+Tiempo: 
+ 1.186331 s
+"----------" 
+graph2_emd_tri_cm.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  2.680553
+Tiempo: 
+ 1.458148 s
+"----------" 
+graph2_emd_tri_no_cm.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  2.680553
+Tiempo: 
+ 1.017795 s
+"----------" 
+graph2_l1_bi_cm.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  4.784722
+Tiempo: 
+ 0.495202 s
+"----------" 
+graph2_l2_bi_no_cm.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  4.784722
+Tiempo: 
+ 0.613975 s
+"----------" 
+graph3_emd_bi.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  0.520834
+Tiempo: 
+ 1.102348 s
+"----------" 
+graph3_emd_bi_cut_approximation.py 
+MIP: 
+ Cut [B, C] ━━/ /━━➤ [A]
+Phi: 
+ Φ =  0.520834
+Tiempo: 
+ 0.524636 s
+"----------" 
+graph3_emd_bi_memorization.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  0.520834
+Tiempo: 
+ 0.637821 s
+"----------" 
+graph3_emd_bi_no_new_concepts.py 
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C]
+Phi: 
+ Φ =  0.520834
+Tiempo: 
+ 0.558397 s
+"----------" 
+graph3_emd_bi_parallel.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  0.520834
+Tiempo: 
+ 0.565997 s
+"----------" 
+graph3_emd_tri_cm.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  0.659722
+Tiempo: 
+ 0.820733 s
+"----------" 
+graph3_emd_tri_no_cm.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C]
+Phi: 
+ Φ =  0.659723
+Tiempo: 
+ 1.395064 s
+"----------" 
+graph3_l1_bi_cm.py 
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C]
+Phi: 
+ Φ =  1.416665
+Tiempo: 
+ 0.337627 s
+"----------" 
+graph3_l1_bi_no_cm.py 
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C]
+Phi: 
+ Φ =  1.416665
+Tiempo: 
+ 0.513506 s
+"----------" 
+graph4_emd_bi.py 
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.308035
+Tiempo: 
+ 8.165864 s
+"----------" 
+graph4_emd_bi_cut_approximation.py 
+MIP: 
+ Cut [A, C, D] ━━/ /━━➤ [B]
+Phi: 
+ Φ =  0.308035
+Tiempo: 
+ 1.671084 s
+"----------" 
+graph4_emd_bi_memorization.py 
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.308035
+Tiempo: 
+ 5.77634 s
+"----------" 
+graph4_emd_bi_no_new_concept.py 
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.308035
+Tiempo: 
+ 1.679061 s
+"----------" 
+graph4_emd_bi_parallel.py 
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.308035
+Tiempo: 
+ 7.011258 s
+"----------" 
+graph4_emd_tri_cm.py 
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.401785
+Tiempo: 
+ 5.246937 s
+"----------" 
+graph4_emd_tri_no_cm.py 
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  0.401785
+Tiempo: 
+ 14.527151 s
+"----------" 
+graph4_l1_bi_cm.py 
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  1.224332
+Tiempo: 
+ 1.8575 s
+"----------" 
+graph4_l1_bi_no_cm.py 
+MIP: 
+ Cut [A, B, C] ━━/ /━━➤ [D]
+Phi: 
+ Φ =  1.224332
+Tiempo: 
+ 3.431255 s
+"----------" 
+graph5_emd_bi.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.048788
+Tiempo: 
+ 61.499611 s
+"----------" 
+graph5_emd_bi_cut_approximation.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.048788
+Tiempo: 
+ 5.320051 s
+"----------" 
+graph5_emd_bi_memorization.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.048788
+Tiempo: 
+ 68.05466 s
+"----------" 
+graph5_emd_bi_no_new_concept.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.048788
+Tiempo: 
+ 9.416309 s
+"----------" 
+graph5_emd_bi_parallel.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.048788
+Tiempo: 
+ 74.070221 s
+"----------" 
+graph5_emd_tri_cm.py 
+MIP: 
+ Cut [A, C, D, E] ━━/ /━━➤ [B]
+Phi: 
+ Φ =  0.1875
+Tiempo: 
+ 44.74539 s
+"----------" 
+graph5_emd_tri_no_cm.py 
+MIP: 
+ Cut [A, C, D, E] ━━/ /━━➤ [B]
+Phi: 
+ Φ =  0.187501
+Tiempo: 
+ 384.300505 s
+"----------" 
+graph5_l1_bi_cm.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.169643
+Tiempo: 
+ 8.676718 s
+"----------" 
+graph5_l1_bi_no_cm.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E]
+Phi: 
+ Φ =  0.169643
+Tiempo: 
+ 63.896634 s
+"----------" 
+graph6_emd_bi.py 
+MIP:
+ Cut [A, B, C, E, F] ━━/ /━━➤ [D]
+Phi:
+ Φ =  0.250981
+Tiempo:
+ 1104.147865 s
+"----------" 
+graph6_emd_bi_cut_approximation.py 
+MIP:
+ Cut [A, B, C, E, F] ━━/ /━━➤ [D]
+Phi:
+ Φ =  0.250981
+Tiempo:
+ 3.890247 s
+"----------" 
+graph6_emd_bi_memorization.py 
+MIP: 
+ Cut [A, B, C, E, F] ━━/ /━━➤ [D]
+Phi:
+ Φ =  0.250981
+Tiempo: 
+ 918.905389 s
+"----------" 
+graph6_emd_bi_no_new_concepts.py 
+MIP:
+ Cut [A, B, C, E, F] ━━/ /━━➤ [D]
+Phi:
+ Φ =  0.250981
+Tiempo:
+ 74.171171 s
+"----------" 
+graph6_emd_bi_parallel.py 
+MIP:
+ Cut [A, B, C, E, F] ━━/ /━━➤ [D]
+Phi:
+ Φ =  0.250981
+Tiempo:
+ 1034.164633 s
+"----------" 
+graph6_emd_tri_cm.py 
+MIP:
+ Cut [A, B, C, D, E] ━━/ /━━➤ [F]
+Phi:
+ Φ =  0.401718
+Tiempo:
+ 14.453184 s
+"----------" 
+graph6_emd_tri_no_cm.py 
+MIP:
+ Cut [A, B, C, D, E] ━━/ /━━➤ [F]
+Phi:
+ Φ =  0.401722
+Tiempo:
+ 13766.924478 s
+"----------" 
+graph6_l1_bi_cm.py 
+MIP:
+ Cut [A, B, C, E, F] ━━/ /━━➤ [D]
+Phi:
+ Φ =  0.672795
+Tiempo:
+ 9.938082 s
+"----------" 
+graph6_l1_bi_no_cm.py 
+MIP:
+ Cut [A, B, C, E, F] ━━/ /━━➤ [D]
+Phi:
+ Φ =  0.672795
+Tiempo:
+ 362.594172 s
+"----------" 
+graph7_emd_bi.py 
+MIP: 
+ Cut [D, F] ━━/ /━━➤ [A, B, C, E]
+Phi: 
+ Φ =  4.805374
+Tiempo: 
+ 4181.075092 s
+"----------" 
+graph7_emd_bi_cut_approximation.py 
+MIP: 
+ NullCut((0, 1, 2, 3, 4, 5))
+Phi: 
+ Φ =  0.0
+Tiempo: 
+ 0.000998 s
+"----------" 
+graph7_emd_bi_memoization.py 
+MIP: 
+ Cut [D, F] ━━/ /━━➤ [A, B, C, E]
+Phi: 
+ Φ =  4.805374
+Tiempo: 
+ 2394.413088 s
+"----------" 
+graph7_emd_bi_no_new_concepts.py 
+MIP: 
+ Cut [D, F] ━━/ /━━➤ [A, B, C, E]
+Phi: 
+ Φ =  4.805374
+Tiempo: 
+ 1892.358562 s
+"----------" 
+graph7_emd_bi_parallel.py 
+MIP: 
+ Cut [D, F] ━━/ /━━➤ [A, B, C, E]
+Phi: 
+ Φ =  4.805374
+Tiempo: 
+ 2376.588076 s
+"----------" 
+graph7_emd_tri_cm.py 
+MIP: 
+ NullCut((0, 1, 2, 3, 4, 5))
+Phi: 
+ Φ =  0.0
+Tiempo: 
+ 0.000998 s
+"----------" 
+graph7_emd_tri_no_cm.py 
+MIP: 
+ Cut [D, E, F] ━━/ /━━➤ [A, B, C]
+Phi: 
+ Φ =  6.298571
+Tiempo: 
+ 32548.742053 s
+"----------" 
+graph7_l1_bi_cm.py 
+MIP: 
+ NullCut((0, 1, 2, 3, 4, 5))
+Phi: 
+ Φ =  0.0
+Tiempo: 
+ 0.001991 s
+"----------" 
+graph7_l1_bi_no_cm.py 
+MIP: 
+ Cut [D, F] ━━/ /━━➤ [A, B, C, E]
+Phi: 
+ Φ =  11.502855
+Tiempo: 
+ 496.369182 s
+"----------" 
+graph9_emd_bi.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C, D, E, F]
+Phi: 
+ Φ =  0.531249
+Tiempo: 
+ 480.404822 s
+"----------" 
+graph9_emd_bi_cut_approximation.py 
+MIP: 
+ Cut [A] ━━/ /━━➤ [B, C, D, E, F]
+Phi: 
+ Φ =  0.859372
+Tiempo: 
+ 4.416378 s
+"----------" 
+graph9_emd_bi_memoization.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C, D, E, F]
+Phi: 
+ Φ =  0.531249
+Tiempo: 
+ 490.538942 s
+"----------" 
+graph9_emd_bi_no_new_concepts.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C, D, E, F]
+Phi: 
+ Φ =  0.531249
+Tiempo: 
+ 20.269228 s
+"----------" 
+graph9_emd_bi_parallel.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C, D, E, F]
+Phi: 
+ Φ =  0.531249
+Tiempo: 
+ 480.839672 s
+"----------" 
+graph9_emd_tri_cm.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C, D, E, F]
+Phi: 
+ Φ =  0.749999
+Tiempo: 
+ 10.593902 s
+"----------" 
+graph9_emd_tri_no_cm.py 
+MIP: 
+ Cut [A, B] ━━/ /━━➤ [C, D, E, F]
+Phi: 
+ Φ =  0.749996
+Tiempo: 
+ 4114.648924 s
+"----------" 
+graph9_l1_bi_cm.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E, F]
+Phi: 
+ Φ =  1.625001
+Tiempo: 
+ 8.359571 s
+"----------" 
+graph9_l1_bi_no_cm.py 
+MIP: 
+ Cut [A, B, C, D] ━━/ /━━➤ [E, F]
+Phi: 
+ Φ =  1.625001
+Tiempo: 
+ 339.155313 s
+"----------" 
+pyphi.log 
