@@ -144,30 +144,28 @@ def evaluate_cut(uncut_subsystem, cut, unpartitioned_ces):
     """
     log.debug("Evaluating %s...", cut)
 
+    #Symplify the cut to remove any redundant nodes
+    cut = uncut_subsystem.simplify_cut(cut)
+    
+    # Apply the cut
     cut_subsystem = uncut_subsystem.apply_cut(cut)
+    
+    # Evaluate sia
+    sia = _ces(uncut_subsystem.cut(cut))
+    log.debug("sia: %s", sia)
 
-    if config.ASSUME_CUTS_CANNOT_CREATE_NEW_CONCEPTS:
-        mechanisms = unpartitioned_ces.mechanisms
-    else:
-        # Mechanisms can only produce concepts if they were concepts in the
-        # original system, or the cut divides the mechanism.
-        mechanisms = set(
-            unpartitioned_ces.mechanisms + list(cut_subsystem.cut_mechanisms)
-        )
-
-    partitioned_ces = ces(cut_subsystem, mechanisms)
-
-    log.debug("Finished evaluating %s.", cut)
-
-    phi_ = ces_distance(unpartitioned_ces, partitioned_ces)
-
-    return SystemIrreducibilityAnalysis(
-        phi=phi_,
-        ces=unpartitioned_ces,
-        partitioned_ces=partitioned_ces,
-        subsystem=uncut_subsystem,
-        cut_subsystem=cut_subsystem,
+    #Compute the system irreducibility analysis
+    sia = SystemIrreducibilityAnalysis(
+        sia,
+        uncut_subsystem,
+        cut,
+        unpartitioned_ces,
+        subsystem_info=conceptual_info(uncut_subsystem),
     )
+    log.debug("sia: %s", sia)
+
+    return sia
+
 
 
 class ComputeSystemIrreducibility(MapReduce):
